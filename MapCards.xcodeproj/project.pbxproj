@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		9C23CF141EC217E200A772DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C23CF131EC217E200A772DE /* AppDelegate.swift */; };
-		9C23CF161EC217E200A772DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C23CF151EC217E200A772DE /* ViewController.swift */; };
 		9C23CF191EC217E200A772DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C23CF171EC217E200A772DE /* Main.storyboard */; };
 		9C23CF1B1EC217E200A772DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C23CF1A1EC217E200A772DE /* Assets.xcassets */; };
 		9C23CF1E1EC217E200A772DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C23CF1C1EC217E200A772DE /* LaunchScreen.storyboard */; };
+		9C23CF291EC21A6900A772DE /* BottomCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C23CF261EC21A6900A772DE /* BottomCardViewController.swift */; };
+		9C23CF2A1EC21A6900A772DE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C23CF271EC21A6900A772DE /* MapViewController.swift */; };
+		9C23CF2B1EC21A6900A772DE /* ScrollableCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C23CF281EC21A6900A772DE /* ScrollableCardViewController.swift */; };
+		9C23CF311EC21A7500A772DE /* BottomCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C23CF2D1EC21A7500A772DE /* BottomCardView.xib */; };
+		9C23CF321EC21A7500A772DE /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C23CF2E1EC21A7500A772DE /* DefaultTableViewCell.swift */; };
+		9C23CF331EC21A7500A772DE /* DefaultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C23CF2F1EC21A7500A772DE /* DefaultTableViewCell.xib */; };
+		9C23CF341EC21A7500A772DE /* ScrollableCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C23CF301EC21A7500A772DE /* ScrollableCardView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C23CF101EC217E200A772DE /* MapCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C23CF131EC217E200A772DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C23CF151EC217E200A772DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C23CF181EC217E200A772DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C23CF1A1EC217E200A772DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C23CF1D1EC217E200A772DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C23CF1F1EC217E200A772DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C23CF261EC21A6900A772DE /* BottomCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomCardViewController.swift; sourceTree = "<group>"; };
+		9C23CF271EC21A6900A772DE /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9C23CF281EC21A6900A772DE /* ScrollableCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableCardViewController.swift; sourceTree = "<group>"; };
+		9C23CF2D1EC21A7500A772DE /* BottomCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomCardView.xib; sourceTree = "<group>"; };
+		9C23CF2E1EC21A7500A772DE /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
+		9C23CF2F1EC21A7500A772DE /* DefaultTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DefaultTableViewCell.xib; sourceTree = "<group>"; };
+		9C23CF301EC21A7500A772DE /* ScrollableCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollableCardView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +67,35 @@
 			isa = PBXGroup;
 			children = (
 				9C23CF131EC217E200A772DE /* AppDelegate.swift */,
-				9C23CF151EC217E200A772DE /* ViewController.swift */,
+				9C23CF2C1EC21A7500A772DE /* Views */,
+				9C23CF251EC21A6900A772DE /* Controllers */,
 				9C23CF171EC217E200A772DE /* Main.storyboard */,
 				9C23CF1A1EC217E200A772DE /* Assets.xcassets */,
 				9C23CF1C1EC217E200A772DE /* LaunchScreen.storyboard */,
 				9C23CF1F1EC217E200A772DE /* Info.plist */,
 			);
 			path = MapCards;
+			sourceTree = "<group>";
+		};
+		9C23CF251EC21A6900A772DE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9C23CF261EC21A6900A772DE /* BottomCardViewController.swift */,
+				9C23CF271EC21A6900A772DE /* MapViewController.swift */,
+				9C23CF281EC21A6900A772DE /* ScrollableCardViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9C23CF2C1EC21A7500A772DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9C23CF2D1EC21A7500A772DE /* BottomCardView.xib */,
+				9C23CF2E1EC21A7500A772DE /* DefaultTableViewCell.swift */,
+				9C23CF2F1EC21A7500A772DE /* DefaultTableViewCell.xib */,
+				9C23CF301EC21A7500A772DE /* ScrollableCardView.xib */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +158,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C23CF341EC21A7500A772DE /* ScrollableCardView.xib in Resources */,
 				9C23CF1E1EC217E200A772DE /* LaunchScreen.storyboard in Resources */,
+				9C23CF311EC21A7500A772DE /* BottomCardView.xib in Resources */,
 				9C23CF1B1EC217E200A772DE /* Assets.xcassets in Resources */,
+				9C23CF331EC21A7500A772DE /* DefaultTableViewCell.xib in Resources */,
 				9C23CF191EC217E200A772DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C23CF161EC217E200A772DE /* ViewController.swift in Sources */,
 				9C23CF141EC217E200A772DE /* AppDelegate.swift in Sources */,
+				9C23CF2B1EC21A6900A772DE /* ScrollableCardViewController.swift in Sources */,
+				9C23CF2A1EC21A6900A772DE /* MapViewController.swift in Sources */,
+				9C23CF291EC21A6900A772DE /* BottomCardViewController.swift in Sources */,
+				9C23CF321EC21A7500A772DE /* DefaultTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
